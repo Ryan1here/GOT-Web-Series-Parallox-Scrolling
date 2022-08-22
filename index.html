@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="clone.css"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+
+    <title>Parallax Scrolling Site</title>
+
+    <style>
+        body,html{
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+.logo{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 16px;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+
+/* -------------- Body ------------------ */
+
+.container{
+    height: 500px;
+    position: relative;
+    background: linear-gradient(rgba(177, 177, 177, 0.393),rgba(176, 176, 176, 0.208)),url(clone/one.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.container h1{
+    border: none;
+    background-color: rgba(74, 74, 74, 0.586);
+    color: whitesmoke;
+    padding: 20px 30px; 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+.demo{
+    background-color: whitesmoke;
+    padding: 50px;
+    line-height: 1.7em;
+    text-align: justify;
+}
+
+h3{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: normal;
+
+}
+p{
+    color: gray;
+}
+.Container1{
+    height: 500px;
+    background: linear-gradient(rgba(82, 82, 82, 0.518),rgba(8, 8, 8, 0.431)),url(clone/four.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    position: relative;
+}
+
+.Container1 h1{
+    color: whitesmoke;
+    font-weight: lighter;
+    padding: 20px 30px; 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 8px;
+}
+
+.demo2 p{
+    height: 200px;
+    background-color: rgba(41, 40, 40, 0.811);
+    color: whitesmoke;
+    padding: 70px 35px;
+    font-size: 20px;
+}
+.container2{
+    height: 500px;
+    position: relative;
+    background: linear-gradient(rgba(91, 91, 91, 0.6),rgba(98, 98, 98, 0.8)),url(clone/three.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container2 h1{
+    color: whitesmoke;
+    font-weight: lighter;
+    padding: 20px 30px; 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 8px;
+}
+
+.container4{
+    height: 500px;
+    position: relative;
+    background: linear-gradient(rgba(177, 177, 177, 0.434),rgba(176, 176, 176, 0.401)),url(clone/five.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container4 h1{
+    border: none;
+    letter-spacing: 8px;
+    font-weight: lighter;
+    color: whitesmoke;
+    padding: 20px 30px; 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container5{
+    height: 500px;
+    position: relative;
+    background: linear-gradient(rgba(177, 177, 177, 0.416),rgba(176, 176, 176, 0.412)),url(clone/six.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container5 h1{
+    border: none;
+    letter-spacing: 8px;
+    font-weight: lighter;
+    color: whitesmoke;
+    padding: 20px 30px; 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container6{
+    height: 500px;
+    position: relative;
+    background: linear-gradient(rgba(177, 177, 177, 0.448),rgba(176, 176, 176, 0.427)),url(clone/seven.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container6 h1{
+    border: none;
+    letter-spacing: 8px;
+    font-weight: lighter;
+    color: whitesmoke;
+    padding: 20px 30px; 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container7{
+    height: 500px;
+    position: relative;
+    background: linear-gradient(rgba(177, 177, 177, 0.272),rgba(176, 176, 176, 0.355)),url(clone/eight.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container7 h1{
+    border: none;
+    letter-spacing: 8px;
+    font-weight: lighter;
+    color: whitesmoke;
+    padding: 20px 30px; 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container8{
+    height: 500px;
+    position: relative;
+    background: linear-gradient(rgba(177, 177, 177, 0.272),rgba(176, 176, 176, 0.355)),url(clone/nine.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container8 h1{
+    border: none;
+    letter-spacing: 8px;
+    font-weight: lighter;
+    color: whitesmoke;
+    padding: 20px 30px; 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container9{
+    height: 500px;
+    position: relative;
+    background: linear-gradient(rgba(177, 177, 177, 0.156),rgba(176, 176, 176, 0.402)),url(clone/ten.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container9 h1{
+    border: none;
+    letter-spacing: 8px;
+    font-weight: lighter;
+    color: whitesmoke;
+    padding: 20px 30px; 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.demo9 p{
+    height: 200px;
+    background-color: rgba(41, 40, 40, 0.811);
+    color: whitesmoke;
+    padding: 40px 35px;
+    font-size: 20px;
+}
+
+.container10{
+    height: 500px;
+    position: relative;
+    background: linear-gradient(rgba(177, 177, 177, 0.129),rgba(176, 176, 176, 0.289)),url(clone/eleven.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container10 h1{
+    border: none;
+    letter-spacing: 8px;
+    font-weight: lighter;
+    color: whitesmoke;
+    padding: 20px 30px; 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+/* ------------------ XXXX ------------------ */
+
+@media only screen and (max-width:650px){
+    .container{
+        background-attachment: scroll;
+    }
+    .Container1{
+        background-attachment: scroll;
+    }
+    .container2{
+        background-attachment: scroll;
+    }
+    .container4{
+        background-attachment: scroll;
+    }
+    .container5{
+        background-attachment: scroll;
+    }
+    .container6{
+        background-attachment: scroll;
+    }
+    .container7{
+        background-attachment: scroll;
+    }
+    .container8{
+        background-attachment: scroll;
+    }
+    .container9{
+        background-attachment: scroll;
+    }
+    .container10{
+        background-attachment: scroll;
+    }
+    
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Short Plot Intro About GOT</h1>
+        </div>
+    </header>
+    <div class="container">
+        <h1>G O T</h1>
+    </div>
+    <div class="demo">
+        <h3>Games Of Thrones</h3>
+        <p><strong>Game of Thrones</strong> is an American fantasy drama television series created by <strong>David Benioff</strong>and D. B. Weiss for HBO. It is an adaptation of A Song of <em>Ice and Fire</em>, a series of fantasy novels by George R. R. Martin, the first of which is A Game of Thrones. The show was shot in the United Kingdom, Canada, Croatia, Iceland, Malta, Morocco, and Spain. It premiered on HBO in the United States on April 17, 2011, and concluded on <time>May 19, 2019</time>, with <b>73 Episodes</b> broadcast over eight seasons.</p>
+    </div>
+    <div class="Container1">
+        <h1>Rhaegal and Viserion</h1>
+    </div>
+    <div class="demo2">
+        <p>
+            The Game of Thrones <b>Dragons</b> are Drogon (black and red), Rhaegal (green and bronze), and Viserion (cream and gold). Drogon is Daenerys' personal mount. He's named after Dany's husband Khal Drogo, whose death in Game of Thrones season 1 (opens in new tab) ultimately triggered the Game of Thrones dragons' birth.
+        </p>
+    </div>
+    <div class="container2">
+        <h1>Tyrion Lennister</h1>
+    </div>
+    <div class="demo2">
+        <p>
+            <b>Lord Tyrion Lannister</b> is the youngest child of Lord Tywin Lannister and younger brother of Cersei and Jaime Lannister. A dwarf, he uses his wit and intellect to overcome the prejudice he faces. He is the current Lord of Casterly Rock and Hand of the King to Brandon Stark.
+        </p>
+    </div>
+
+    <div class="container4">
+        <h1>
+            Sansa Stark
+        </h1>
+    </div>
+    <div class="demo2">
+        
+        <p>
+            <strong>Sansa Stark</strong> is the eldest daughter of Eddard Stark of Winterfell and his wife Catelyn. She initially starts off with a very naive view of the world, but as time goes on and she and her family suffer one cruelty and betrayal after another, she becomes a more hardened and learned individual.
+        </p>
+    </div>
+    <div class="container5">
+        <h1>
+            Arya Stark 
+        </h1>
+    </div>
+    <div class="demo2">
+        
+        <p>
+            <strong>Arya Stark </strong> is the third child of Eddard Stark and Catelyn Stark. After narrowly escaping the persecution of House Stark by House Lannister, Arya is trained as a Faceless Man at the House of Black and White in Braavos, and uses her new skills to bring those who have wronged her family to justice.
+        </p>
+    </div>
+    <div class="container6">
+        <h1>
+            Night King
+        </h1>
+    </div>
+    <div class="demo2">
+        
+        <p>
+            <strong>Night King</strong> The Night King is the supreme leader and the first of the White Walkers, having existed since the age of the First Men. By extension, he is also the master of the Wights.
+        </p>
+    </div>
+    <div class="container7">
+        <h1>
+            Jon Snow
+        </h1>
+    </div>
+    <div class="demo2">
+        
+        <p>
+            <strong>Jon Snow</strong> , born Aegon Targaryen, is the son of Lyanna Stark and Rhaegar Targaryen, the late Prince of Dragonstone. After successfully capturing a wight and presenting it to the Lannisters as proof that the Army of the Dead are real, Jon pledges himself and his army to Daenerys Targaryen.
+        </p>
+    </div>
+ 
+    <div class="container8">
+        <h1>
+            Eddard Stark
+        </h1>
+    </div>
+    <div class="demo2">
+        
+        <p>
+            <strong>Lord Eddard Stark</strong>  was the head of House Stark. Eddard's execution and revealing of the illegitimacy of Cersei Lannister's children was the spark of the War of the Five Kings, being posthumously responsible for the involvement of four of the kings in this war. Fandom
+        </p>
+    </div>
+    <div class="container9">
+        <h1>
+            Daenerys Targaryen
+        </h1>
+    </div>
+    <div class="demo9">
+        
+        <p>
+            <strong>Queen Daenerys</strong>| Targaryen is the younger sister of Rhaegar.
+            <br>
+            <br>
+            <i>Who is Daenerys Targaryen?</i> Deep breath; Daenerys Stormborn of the House Targaryen, First of Her Name, the Unburnt, Queen of the Andals and the First Men, Khaleesi of the Great Grass Sea, Breaker of Chains, and <strong>Mother of Dragons</strong> – otherwise known as Dany – is one the most significant characters in Game of Thrones.
+        </p>
+    </div>
+
+    <div class="container10">
+        <h1>
+            THE END
+        </h1>
+    </div>
+    <div class="demo2">
+        
+        <p>
+            <strong> "Get some rest dear, you look appalling." </strong>
+            
+        </p>
+    </div>
+
+    
+
+
+</body>
+</html>

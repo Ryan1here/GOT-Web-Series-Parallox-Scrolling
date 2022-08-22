@@ -1,0 +1,310 @@
+
+body,html{
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+.logo{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 16px;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+
+/* -------------- Body ------------------ */
+
+.container{
+    height: 500px;
+    position: relative;
+    background: linear-gradient(rgba(177, 177, 177, 0.393),rgba(176, 176, 176, 0.208)),url(clone/one.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.container h1{
+    border: none;
+    background-color: rgba(74, 74, 74, 0.586);
+    color: whitesmoke;
+    padding: 20px 30px; 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+.demo{
+    background-color: whitesmoke;
+    padding: 50px;
+    line-height: 1.7em;
+    text-align: justify;
+}
+
+h3{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: normal;
+
+}
+p{
+    color: gray;
+}
+.Container1{
+    height: 500px;
+    background: linear-gradient(rgba(82, 82, 82, 0.518),rgba(8, 8, 8, 0.431)),url(clone/four.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    position: relative;
+}
+
+.Container1 h1{
+    color: whitesmoke;
+    font-weight: lighter;
+    padding: 20px 30px; 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 8px;
+}
+
+.demo2 p{
+    height: 200px;
+    background-color: rgba(41, 40, 40, 0.811);
+    color: whitesmoke;
+    padding: 70px 35px;
+    font-size: 20px;
+}
+.container2{
+    height: 500px;
+    position: relative;
+    background: linear-gradient(rgba(91, 91, 91, 0.6),rgba(98, 98, 98, 0.8)),url(clone/three.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container2 h1{
+    color: whitesmoke;
+    font-weight: lighter;
+    padding: 20px 30px; 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 8px;
+}
+
+.container4{
+    height: 500px;
+    position: relative;
+    background: linear-gradient(rgba(177, 177, 177, 0.434),rgba(176, 176, 176, 0.401)),url(clone/five.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container4 h1{
+    border: none;
+    letter-spacing: 8px;
+    font-weight: lighter;
+    color: whitesmoke;
+    padding: 20px 30px; 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container5{
+    height: 500px;
+    position: relative;
+    background: linear-gradient(rgba(177, 177, 177, 0.416),rgba(176, 176, 176, 0.412)),url(clone/six.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container5 h1{
+    border: none;
+    letter-spacing: 8px;
+    font-weight: lighter;
+    color: whitesmoke;
+    padding: 20px 30px; 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container6{
+    height: 500px;
+    position: relative;
+    background: linear-gradient(rgba(177, 177, 177, 0.448),rgba(176, 176, 176, 0.427)),url(clone/seven.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container6 h1{
+    border: none;
+    letter-spacing: 8px;
+    font-weight: lighter;
+    color: whitesmoke;
+    padding: 20px 30px; 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container7{
+    height: 500px;
+    position: relative;
+    background: linear-gradient(rgba(177, 177, 177, 0.272),rgba(176, 176, 176, 0.355)),url(clone/eight.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container7 h1{
+    border: none;
+    letter-spacing: 8px;
+    font-weight: lighter;
+    color: whitesmoke;
+    padding: 20px 30px; 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container8{
+    height: 500px;
+    position: relative;
+    background: linear-gradient(rgba(177, 177, 177, 0.272),rgba(176, 176, 176, 0.355)),url(clone/nine.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container8 h1{
+    border: none;
+    letter-spacing: 8px;
+    font-weight: lighter;
+    color: whitesmoke;
+    padding: 20px 30px; 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container9{
+    height: 500px;
+    position: relative;
+    background: linear-gradient(rgba(177, 177, 177, 0.156),rgba(176, 176, 176, 0.402)),url(clone/ten.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container9 h1{
+    border: none;
+    letter-spacing: 8px;
+    font-weight: lighter;
+    color: whitesmoke;
+    padding: 20px 30px; 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.demo9 p{
+    height: 200px;
+    background-color: rgba(41, 40, 40, 0.811);
+    color: whitesmoke;
+    padding: 40px 35px;
+    font-size: 20px;
+}
+
+.container10{
+    height: 500px;
+    position: relative;
+    background: linear-gradient(rgba(177, 177, 177, 0.129),rgba(176, 176, 176, 0.289)),url(clone/eleven.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container10 h1{
+    border: none;
+    letter-spacing: 8px;
+    font-weight: lighter;
+    color: whitesmoke;
+    padding: 20px 30px; 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+/* ------------------ XXXX ------------------ */
+
+@media only screen and (max-width:650px){
+    .container{
+        background-attachment: scroll;
+    }
+    .Container1{
+        background-attachment: scroll;
+    }
+    .container2{
+        background-attachment: scroll;
+    }
+    .container4{
+        background-attachment: scroll;
+    }
+    .container5{
+        background-attachment: scroll;
+    }
+    .container6{
+        background-attachment: scroll;
+    }
+    .container7{
+        background-attachment: scroll;
+    }
+    .container8{
+        background-attachment: scroll;
+    }
+    .container9{
+        background-attachment: scroll;
+    }
+    .container10{
+        background-attachment: scroll;
+    }
+    
+}
+
